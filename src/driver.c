@@ -938,7 +938,7 @@ process_options (int count, char **vector)
 					  MODIFICATION, PATCH);
 				  fprintf (stderr, "Copyright %s %s\n", TPC, C_DATES);
 				  usage ();
-				  exit (1);
+				  exit (0);
 	  }
 
 #ifndef DOS
