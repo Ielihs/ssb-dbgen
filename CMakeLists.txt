@@ -160,7 +160,6 @@ set_property(
 		_FILE_OFFSET_BITS=64
 )
 
-set_property(TARGET dbgen qgen APPEND PROPERTY C_STANDARD 99)
 set_property(TARGET dbgen qgen APPEND PROPERTY C_EXTENSIONS OFF)
 
 # Note: Defining _POSIX_C_SOURCE=200809L allows the code access to functions defined in the POSIX standard,
